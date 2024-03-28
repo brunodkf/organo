@@ -1,0 +1,20 @@
+.campoTexto{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    gap: 5px;
+}
+
+.campoTexto label{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.campoTexto input{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 2em;
+    border-radius: 5px;
+    padding: .2em;
+    padding-left: 1em;
+}
